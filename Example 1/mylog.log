@@ -1,0 +1,1667 @@
+INFO:uvicorn.error:Started server process [14740]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [11432]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:abc
+INFO:uvicorn.error:Started server process [13032]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [3920]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:abc
+INFO:uvicorn.error:Started server process [17284]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.0'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login/?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 200 7
+INFO:root:abc
+INFO:uvicorn.error:Started server process [17436]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 307 None
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.0'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login/?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 500 21
+INFO:root:abc
+INFO:uvicorn.error:Started server process [15172]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login/?token=Bearer+Depends%28OAuth2PasswordBearer%29 HTTP/1.1" 500 21
+INFO:root:abc
+INFO:uvicorn.error:Started server process [16840]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.0'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login/ HTTP/1.1" 422 172
+INFO:root:abc
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login/ HTTP/1.1" 422 172
+INFO:root:abc
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [16840]
+INFO:uvicorn.error:Started server process [9852]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login/ HTTP/1.1" 422 172
+INFO:root:abc
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 307 None
+INFO:uvicorn.error:Started server process [5904]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [5904]
+INFO:uvicorn.error:Started server process [7376]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [4304]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.0'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 216, in app
+    solved_result = await solve_dependencies(
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\dependencies\utils.py", line 527, in solve_dependencies
+    solved = await run_in_threadpool(call, **sub_values)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\api\deps.py", line 33, in get_current_user
+    token, SECRET_KEY, algorithms=[security.ALGORITHM]
+NameError: name 'SECRET_KEY' is not defined
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [4304]
+INFO:uvicorn.error:Started server process [15184]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:abc
+INFO:uvicorn.error:Started server process [11500]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login/ HTTP/1.1" 422 170
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 422 170
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 422 89
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 422 89
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [11500]
+INFO:uvicorn.error:Started server process [8132]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 422 89
+INFO:uvicorn.error:Started server process [12728]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 422 92
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 500 21
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 127.0.0.1:8001
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 127.0.0.1:8001
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for Token
+response
+  value is not a valid dict (type=type_error.dict)
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [12728]
+INFO:uvicorn.error:Started server process [16456]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:charset_normalizer:override steps (5) and chunk_size (512) as content does not fit (160 byte(s) given) parameters.
+INFO:charset_normalizer:ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+INFO:charset_normalizer:ascii should target any language(s) of ['Latin Based']
+INFO:charset_normalizer:We detected language [('English', 1.0), ('Indonesian', 1.0), ('Simple English', 1.0)] using ascii
+INFO:charset_normalizer:ascii is most likely the one. Stopping the process.
+INFO:uvicorn.error:Started server process [11116]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for Token
+response
+  value is not a valid dict (type=type_error.dict)
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [11116]
+INFO:uvicorn.error:Started server process [10532]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\api\api_v1\endpoints\login.py", line 35, in login_access_token
+    "access_token": user.access_token,
+AttributeError: 'Response' object has no attribute 'access_token'
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [6852]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:charset_normalizer:override steps (5) and chunk_size (512) as content does not fit (160 byte(s) given) parameters.
+INFO:charset_normalizer:ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+INFO:charset_normalizer:ascii should target any language(s) of ['Latin Based']
+INFO:charset_normalizer:We detected language [('English', 1.0), ('Indonesian', 1.0), ('Simple English', 1.0)] using ascii
+INFO:charset_normalizer:ascii is most likely the one. Stopping the process.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [1900]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:uvicorn.error:Started server process [2796]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:root:abc
+INFO:uvicorn.error:Started server process [12744]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [11632]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [8724]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [9672]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [1616]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 14, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 22, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 14, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 22, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 14, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 22, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 14, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 22, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [1616]
+INFO:uvicorn.error:Started server process [2504]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [18004]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [9680]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 15, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 24, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 57, in __call__
+    task_group.cancel_scope.cancel()
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 574, in __aexit__
+    raise exceptions[0]
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 30, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\routing.py", line 64, in app
+    await response(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\responses.py", line 139, in __call__
+    await send({"type": "http.response.body", "body": self.body})
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\anyio\streams\memory.py", line 205, in send
+    raise BrokenResourceError
+anyio.BrokenResourceError
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 15, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 24, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 15, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 24, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 15, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 24, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Started server process [17860]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mzk4Mzg5MjEsInN1YiI6IjMifQ.2b0fGJtcfUbm0r1kvLbO0DWWJZ6S4izbkxe5kNHJ_ws HTTP/1.1" 405 31
+INFO:root:abc
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [17860]
+INFO:uvicorn.error:Started server process [3172]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Started server process [17828]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [17828]
+INFO:uvicorn.error:Started server process [12928]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Started server process [11044]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [11044]
+INFO:uvicorn.error:Started server process [14868]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [14868]
+INFO:uvicorn.error:Started server process [12424]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [1972]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:108]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[164:183]
+DEBUG:multipart.multipart:Calling on_header_value with data[185:211]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[215:221]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "GET /v1/login?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mzk5ODQ4NTEsInN1YiI6IjMifQ.QX11RNcGd5v3FQ-r68Uai_X8mQPD4YVv4dSu5_PrYxo HTTP/1.1" 405 31
+INFO:root:abc
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 25, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Started server process [16144]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [4172]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [13136]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    if not request.headers['Authorization']:
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 29, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [13328]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [10300]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    token = request.headers['Authorization']
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 26, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [10188]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    if not request.headers['Authorization']:
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 29, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Started server process [16080]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 16, in verify_user_agent
+    if not request.headers['Authorization']:
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\datastructures.py", line 542, in __getitem__
+    raise KeyError(key)
+KeyError: 'Authorization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 55, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\.\main.py", line 29, in verify_user_agent
+    raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+fastapi.exceptions.HTTPException
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [16080]
+INFO:uvicorn.error:Started server process [17684]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\2. Information Technology\15. Python\7. Learn\3. FastAPi\Example 1\venv\lib\site-packages\starlette\middleware\base.py", line 56, in __call__
+    await response(scope, receive, send)
+TypeError: 'HTTPException' object is not callable
+INFO:uvicorn.error:Started server process [12636]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [12636]
+INFO:uvicorn.error:Started server process [12216]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:uvicorn.error:Started server process [1932]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:uvicorn.error:Started server process [12636]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
