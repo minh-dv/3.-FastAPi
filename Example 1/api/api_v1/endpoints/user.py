@@ -23,7 +23,12 @@ def create_user(
     :param item_in:
     :return:
     """
-
+    exist_user = crud.user.get_by_email(db=db, mail=item_in.mail)
+    if exist_user:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="The user with this email already exists in the system"
+        )
     user = crud.user.create_user(db=db, item_in=item_in)
     return user
 

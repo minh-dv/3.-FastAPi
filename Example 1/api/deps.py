@@ -14,7 +14,7 @@ import requests
 session = requests.Session()
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/v1/login")
-SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
+SECRET_KEY = "abc123"
 
 
 def get_db() -> Generator:
@@ -42,19 +42,3 @@ def get_current_user(
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
     return user
-    # try:
-    #     token: str = Depends(oauth2_scheme)
-    #     authorization = f"Bearer {token}"
-    #     param = {'token': authorization}
-    #     res = session.post(
-    #         'http://127.0.0.1:8001/v1/login',
-    #         # params=param,
-    #         # json=authorization,
-    #         data=authorization,
-    #         timeout=15,
-    #     )
-    #     return res
-    # except Exception as err:
-    #     raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-    #                         detail=f"can't send request")
-    #

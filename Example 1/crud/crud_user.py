@@ -7,9 +7,9 @@ import schemas
 from crud.base import CRUDBase
 from models.user import User
 from schemas.user import UserCreate, UserUpdate
-from core.security import get_password_hash, verify_password
+from core.security import get_password_hash
 from fastapi.security import OAuth2PasswordBearer
-from fastapi import Depends, HTTPException, status
+from fastapi import HTTPException, status
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/v1/login")
 
@@ -19,7 +19,8 @@ session = requests.Session()
 class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
 
     def get_by_email(self, db: Session, *, mail: str) -> Optional[schemas.User]:
-        return db.query(self.model).filter(User.mail == mail).first()
+        db_obj = db.query(self.model).filter(User.mail == mail).first()
+        return db_obj
 
     def create_user(self, db: Session, item_in: UserCreate) -> Any:
         db_obj = User(
@@ -36,42 +37,31 @@ class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
         lst_user = db.query(self.model).all()
         return lst_user
 
-    # def authenticate(self, db: Session, *, mail: str, plain_password: str) -> Optional[schemas.User]:
-    #     user = self.get_by_email(db, mail=mail)
-    #     if not user:
-    #         return None
-    #     if not verify_password(plain_password=plain_password, hashed_password=user.password):
-    #         return None
-    #     return user
-
-    # def check_authentication(self):
-    #     try:
-    #         token: str = Depends(oauth2_scheme)
-    #         authorization = f"Bearer {token}"
-    #         param = {'token': authorization}
-    #         res = session.get(
-    #             'http://127.0.0.1:8001/v1/login',
-    #             params=param,
-    #             # json=authorization,
-    #             timeout=15,
-    #         )
-    #         return res
-    #     except Exception as err:
-    #         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-    #                             detail=f"can't send request")
-
     def authen(self, mail: str, password:str):
+        """
+        Send request to authentication service
+        :param mail:
+        :param password:
+        :return:
+        """
         try:
-            payload = {'mail': mail, 'password': password}
+            payload = {
+                'mail': mail,
+                'password': password
+            }
+
             res = session.post(
                 'http://127.0.0.1:8001/v1/login',
                 data=json.dumps(payload),
                 timeout=15,
             )
+
             return res
         except Exception as err:
-            raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                                detail=f"can't send request")
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail=f"Can't send request to authenticate",
+            )
 
 
 user = CRUDUser(User)
