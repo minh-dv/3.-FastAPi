@@ -1665,3 +1665,102 @@ DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200
 INFO:uvicorn.error:Started server process [12636]
 INFO:uvicorn.error:Waiting for application startup.
 INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [7968]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[12:20]
+DEBUG:multipart.multipart:Calling on_field_data with data[21:24]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[25:33]
+DEBUG:multipart.multipart:Calling on_field_data with data[34:40]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[41:46]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[48:57]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[59:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:108]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[164:183]
+DEBUG:multipart.multipart:Calling on_header_value with data[185:211]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[215:218]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 400 40
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[54:73]
+DEBUG:multipart.multipart:Calling on_header_value with data[75:101]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[105:108]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[164:183]
+DEBUG:multipart.multipart:Calling on_header_value with data[185:211]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[215:221]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 127.0.0.1
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Started server process [14556]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:32]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[33:41]
+DEBUG:multipart.multipart:Calling on_field_data with data[42:48]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8001 "POST /v1/login HTTP/1.1" 200 160
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [14556]

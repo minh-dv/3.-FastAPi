@@ -1,23 +1,16 @@
-import json
 from datetime import timedelta
 from typing import Any
 from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
-import requests
 
-import schemas
-import crud
 from api.deps import get_db
-from core import security
-from fastapi.encoders import jsonable_encoder
 from jose import jwt
 import schemas, crud
 from pydantic import ValidationError
 from core import security
 
 router = APIRouter()
-SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
+SECRET_KEY = "abc123"
 
 
 @router.post("", response_model=schemas.Token)

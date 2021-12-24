@@ -4,6 +4,7 @@ from fastapi import Depends, APIRouter, HTTPException, status
 from sqlalchemy.orm import Session
 
 import crud
+import models
 import schemas
 from schemas import Student
 from api.deps import get_db,get_current_user
@@ -27,7 +28,6 @@ def get_all_student(
     :param db:
     :return:
     """
-
     db_obj = crud.student.get_all(db=db)
     return db_obj
 
@@ -45,6 +45,11 @@ def get_student_by_id(
     :return:
     """
     db_obj = crud.student.get_student_by_id(db=db, student_id=student_id)
+    if not db_obj:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Student not found"
+        )
     return db_obj
 
 
