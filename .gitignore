@@ -1,7 +1,7 @@
 .env
 .idea
-Example 1/venv
-Example 1/__pycache__
+Api Service/venv
+Api Service/__pycache__
 
-Example 2/venv
-Example 2/__pycache__
+Authen Service/venv
+Authen Service/__pycache__
