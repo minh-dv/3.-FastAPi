@@ -10,10 +10,14 @@ from schemas.user import UserCreate, UserUpdate
 from core.security import get_password_hash
 from fastapi.security import OAuth2PasswordBearer
 from fastapi import HTTPException, status
+import os
+from dotenv import load_dotenv
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/v1/login")
 
 session = requests.Session()
+load_dotenv()
+BASE_URL = os.getenv('BASE_URL')
 
 
 class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
@@ -51,7 +55,7 @@ class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
             }
 
             res = session.post(
-                'http://127.0.0.1:8001/v1/login',
+                f'{BASE_URL}/v1/login',
                 data=json.dumps(payload),
                 timeout=15,
             )

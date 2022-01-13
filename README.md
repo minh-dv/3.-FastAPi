@@ -44,15 +44,30 @@ with:
 ## Run source
 Run source with Api Service or Auth Service is the same way
 ### With commandline
+- With Api Service
 ```commandline
-    uvicorn main:app --reload
+    uvicorn main:app --reload --port 9091
+```
+
+- With Auth Service
+```commandline
+    uvicorn main:app --reload --port 9092
 ```
 ### With configuration
 Add Run/Debug configurations
+
+- With Api Service
 ```
 - Add new configuration
 - Module name: uvicorn
-- Parameters: main:app --reload
+- Parameters: main:app --reload --port 9091
+```
+
+- With Auth Service
+```
+- Add new configuration
+- Module name: uvicorn
+- Parameters: main:app --reload --port 9092
 ```
 Reference [here](https://www.jetbrains.com/help/pycharm/run-debug-configuration.html#share-configurations).
 
